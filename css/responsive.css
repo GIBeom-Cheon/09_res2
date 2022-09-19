@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* 1200px 보다 작을때 */
+@media (max-width: 1199px) {
+  .header_in {
+    width: 100%;
+    padding: 0 20px;
+  }
+  #contents {
+    width: 100%;
+  }
+  section {
+    width: 50%;
+    height: 200px;
+  }
+  .footer_in {
+    width: 100%;
+  }
+}
+
+/* 960px 보다 작을때  태블릿 */
+@media (max-width: 959px) {
+  h1 {
+    font-size: 25px;
+  }
+  .sign span {
+    display: none;
+  }
+  nav {
+    margin-left: -150px;
+  }
+  nav a {
+    margin: 0 5px;
+    font-size: 15px;
+  }
+}
+/* 720px 보다 작을때 핸드폰 */
+
+@media (max-width: 720px) {
+  h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 50px;
+    float: none;
+  }
+  .allBtn {
+    display: block;
+    line-height: 50px;
+  }
+  .sign {
+    float: none;
+    line-height: 50px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+  .header_in {
+    height: 50px;
+  }
+  section {
+    float: none;
+    width: 100%;
+  }
+  .footer_in {
+    text-align: center;
+  }
+  nav {
+    position: fixed;
+    width: 300px;
+    left: -300px;
+    top: 0;
+    bottom: 0;
+    margin-left: 0;
+    padding: 50px 0 0 20px;
+  }
+  nav li {
+    float: none;
+  }
+  nav a {
+    margin: 0;
+    font-size: 18px;
+    line-height: 40px;
+    color: #111;
+  }
+  nav button {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+}

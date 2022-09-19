@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+a {
+  color: inherit;
+}
+li::after,
+#contents::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+header {
+  background: #333276;
+  color: #fff;
+}
+.header_in {
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+}
+h1 {
+  float: left;
+  line-height: 100px;
+}
+nav {
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  background-color: #9190d6;
+}
+nav ul {
+}
+nav li {
+  float: left;
+}
+nav a {
+  display: block;
+  margin: 0 15px;
+  line-height: 100px;
+}
+nav button {
+  display: none;
+}
+.allBtn {
+  display: none;
+}
+.sign {
+  float: right;
+  line-height: 100px;
+}
+#visual {
+  height: 500px;
+  background-image: url(../img/배경.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+}
+
+#contents {
+  width: 1200px;
+  margin: auto;
+}
+section {
+  height: 300px;
+  width: 25%;
+  float: left;
+}
+.con1 {
+  background-color: #939597;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200px;
+}
+.con2 {
+  background-color: #0f4c81;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200px;
+}
+.con3 {
+  background-color: #ff6f61;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200px;
+}
+.con4 {
+  background-color: #5f4b8b;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200px;
+}
+
+footer {
+  background: #333276;
+}
+.footer_in {
+  width: 1200px;
+  margin: auto;
+  height: 70px;
+}
