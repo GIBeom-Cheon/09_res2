@@ -27,7 +27,6 @@ nav {
   position: absolute;
   left: 50%;
   margin-left: -200px;
-  background-color: #9190d6;
 }
 nav ul {
 }
@@ -107,4 +106,8 @@ footer {
   width: 1200px;
   margin: auto;
   height: 70px;
+}
+
+.ss {
+  background-color: #9190d6;
 }

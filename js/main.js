@@ -11,3 +11,16 @@ $(document).ready(function () {
     $("nav").removeAttr("style");
   });
 });
+
+function resizing() {
+  const width = window.innerWidth;
+  const body = document.querySelector("nav");
+  if (width < 720) {
+    body.classList.add("ss");
+  } else {
+    body.classList.remove("ss");
+  }
+  return;
+}
+
+window.addEventListener("resize", resizing);
